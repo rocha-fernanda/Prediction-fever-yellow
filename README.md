@@ -16,19 +16,16 @@ O objetivo deste projeto é utilizar o Filtro de Kalman Estendido para prever a 
 
 O código está estruturado da seguinte forma:
 
-- `main.m`: Arquivo principal que executa o código principal do projeto.
-- `ekf_predict.m`: Função que implementa a predição do estado utilizando o Filtro de Kalman Estendido.
-- `model_edo.m`: Implementação do modelo de Equações Diferenciais Ordinárias (EDO's) que descreve a propagação da febre amarela.
-- `data_processing.m`: Funções para carregar e processar os dados observados.
-- `plot_results.m`: Função para visualização dos resultados da predição.
+- `datas.mat`: Arquivo que contém os dados utilizados. 
+- `ekf_predict.m`: Função que implementa a predição do estado utilizando o Filtro de Kalman Estendido, nele estão os parametros utilizados no modelos, a implementação do modelo de Equações Diferenciais Ordinárias (EDO's) que descreve a propagação da febre amarela e as funções para visualização dos resultados da predição.
 
 ## Como Usar
 
 1. Clone o repositório para o seu ambiente local.
 2. Certifique-se de ter o MATLAB instalado com os pacotes necessários.
 3. Execute o script `main.m` para iniciar a predição.
-4. Ajuste os parâmetros do modelo de EDO's conforme necessário no arquivo `model_edo.m`.
-5. Visualize os resultados utilizando a função `plot_results.m`.
+4. Ajuste os parâmetros do modelo de EDO's conforme necessário no arquivo `ekf_predict.m`.
+
 
 ## Resultados e Explicações
 
