@@ -43,10 +43,6 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 
 Este projeto foi desenvolvido por Fernanda Paula Rocha, sob a orientação de Mateus Giesbrecht. 
 
-## Licença
-
-Este projeto é licenciado sob a [Nome da Licença]. Veja o arquivo LICENSE para mais detalhes.
-
 ---
 
 
